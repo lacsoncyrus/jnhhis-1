@@ -620,7 +620,7 @@
 
     function DischargePatient($patient_id, $bed_id){
       $data_discharge = array("status"=>2);
-      $data_update_bed = array()
+      $data_update_bed = array();
       $this->Model_admin->dischargepatient($data, $patient_id);
       redirect(base_url()."Admin/EmergencyRoom");
     }
