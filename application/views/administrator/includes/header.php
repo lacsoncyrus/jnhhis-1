@@ -334,7 +334,7 @@
                           </a>
                           <ul class="sub">
                               <li><a  href="#.html">Laboratory Maintenance</a></li>
-                              <li><a  href="#.html">Laboratory Requests</a></li>
+                              <li><a  href="">Laboratory Requests</a></li>
                               <li><a  href="#.html">Approval of Requests</a></li>
                           </ul>
                       </li>
@@ -346,7 +346,7 @@
                           </a>
                           <ul class="sub">
                               <li><a  href="#.html">Radiology Maintenance</a></li>
-                              <li><a  href="#.html">Radiology Requests</a></li>
+                              <li><a  href="<?=base_url()?>Admin/LaboratoryRequests">Radiology Requests</a></li>
                               <li><a  href="#.html">Approval of Requests</a></li>
                           </ul>
                       </li>
