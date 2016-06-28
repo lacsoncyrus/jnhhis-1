@@ -761,6 +761,12 @@
       redirect(base_url()."Admin/ViewRoom/".$roomid);
     }
     /*=========================================================================================================================*/
+    function LaboratoryRequests(){
+  $this->load->view('administrator/includes/header.php');
+  $this->load->view('administrator/laboratory/laboratoryrequest.php');
+  $this->load->view('administrator/includes/footer.php');
+}
+    /*=========================================================================================================================*/
     function logout(){
       $this->session->sess_destroy();
       redirect(base_url());
